@@ -37,7 +37,7 @@ class UserAdmin(BaseUserAdmin):
             },
         ),
         (
-            _("Import Dates"), 
+            _("Important Dates"), 
             {
                 "fields": ("date_joined", "last_login")
             },
