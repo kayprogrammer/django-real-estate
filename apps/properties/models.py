@@ -1,6 +1,5 @@
 import random
 import string
-from tabnanny import verbose
 
 from autoslug import AutoSlugField
 from django.contrib.auth import get_user_model
