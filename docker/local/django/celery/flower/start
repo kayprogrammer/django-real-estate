@@ -11,9 +11,10 @@ worker_ready(){
 until worker_ready; do
     >&2 echo 'Celery workers are not available :-('
     sleep 1
+
 done
 >&2 echo 'Celery workers are available and ready!...:-)'
 
-flower \ 
-    --app=real_estate \ 
+flower \
+    --app=real_estate \
     --broker="${CELERY_BROKER}"
