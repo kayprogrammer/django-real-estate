@@ -23,7 +23,7 @@ const PropertiesPage = () => {
   if (isLoading) return <Spinner />;
   return (
     <>
-      <Title title="Our Properties Catalog"/>
+      <Title title="Our Properties Catalog" />
       <Container>
           <Row>
               <Col className='mg-top text-center'>
